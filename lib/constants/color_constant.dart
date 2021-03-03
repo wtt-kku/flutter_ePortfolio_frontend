@@ -9,3 +9,10 @@ const mBorderColor = Color(0xFFE8E8F3);
 const mFillColor = Color(0xFFFFFFFF);
 const mCardTitleColor = Color(0xFF2E4ECF);
 const mCardSubtitleColor = mTitleColor;
+
+const mBodyLoinScreen = [
+  Color(0xFF73AEF5),
+  Color(0xFF61A4F1),
+  Color(0xFF478DE0),
+  Color(0xFF398AE5),
+];

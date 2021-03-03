@@ -20,3 +20,24 @@ var mPopularTitleStyle = GoogleFonts.kanit(
     fontWeight: FontWeight.w700, color: mCardTitleColor, fontSize: 16);
 var mPopularSubtitleStyle = GoogleFonts.kanit(
     fontWeight: FontWeight.w500, color: mCardSubtitleColor, fontSize: 10);
+
+var mHintTextStyle = TextStyle(
+  color: Colors.white54,
+);
+
+var mLabelStyle = TextStyle(
+  color: Colors.white,
+  fontWeight: FontWeight.bold,
+);
+
+var mBoxDecorationStyle = BoxDecoration(
+  color: Color(0xFF6CA8F1),
+  borderRadius: BorderRadius.circular(10.0),
+  boxShadow: [
+    BoxShadow(
+      color: Colors.black12,
+      blurRadius: 6.0,
+      offset: Offset(0, 2),
+    ),
+  ],
+);
