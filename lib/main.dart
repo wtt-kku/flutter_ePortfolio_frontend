@@ -1,4 +1,5 @@
 import 'package:eportfolio/screens/home_screen.dart';
+import 'package:eportfolio/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Prompt',
       ),
       title: 'ePortfolio',
-      home: HomeScreen(),
+      home: Login(),
     );
   }
 }
