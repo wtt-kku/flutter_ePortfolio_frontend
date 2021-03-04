@@ -16,3 +16,4 @@ const mBodyLoginScreenColors = [
   Color(0xFF478DE0),
   Color(0xFF398AE5),
 ];
+const mRegisterTitleColor = Color(0xFF0C2551);

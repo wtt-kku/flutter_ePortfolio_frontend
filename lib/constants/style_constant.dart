@@ -41,3 +41,15 @@ var mBoxDecorationStyle = BoxDecoration(
     ),
   ],
 );
+
+var mRegisterTitleStyle = GoogleFonts.kanit(
+  fontWeight: FontWeight.w600,
+  color: mRegisterTitleColor,
+  fontSize: 35,
+);
+
+var mRegisterWithSocialStyle = GoogleFonts.kanit(
+  fontWeight: FontWeight.w700,
+  color: mGreyColor,
+  fontSize: 15,
+);
