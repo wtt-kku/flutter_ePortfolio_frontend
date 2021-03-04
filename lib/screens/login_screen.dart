@@ -265,7 +265,7 @@ class _LoginState extends State<Login> {
                   gradient: LinearGradient(
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
-                    colors: mBodyLoinScreen,
+                    colors: mBodyLoginScreenColors,
                     stops: [0.1, 0.4, 0.7, 0.9],
                   ),
                 ),
