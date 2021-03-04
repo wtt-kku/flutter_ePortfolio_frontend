@@ -1,10 +1,17 @@
-import 'package:eportfolio/constants/color_constant.dart';
-import 'package:eportfolio/constants/style_constant.dart';
-import 'package:eportfolio/widgets/bottom_navigation_eportfolio.dart';
+//! Basic & libraries
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
+
+//! Model
 import 'package:eportfolio/models/carousel_model.dart';
+
+//! Constant & Style
+import 'package:eportfolio/constants/color_constant.dart';
+import 'package:eportfolio/constants/style_constant.dart';
+
+//! Screen
+import 'package:eportfolio/widgets/bottom_navigation_eportfolio.dart';
 
 class HomeScreen extends StatefulWidget {
   @override

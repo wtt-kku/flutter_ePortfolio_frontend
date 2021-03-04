@@ -1,6 +1,8 @@
-import 'package:eportfolio/constants/color_constant.dart';
+//! Basic&libraries
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+
+//! Constant & Style
+import 'package:eportfolio/constants/color_constant.dart';
 
 class BottomNavigationEportfolio extends StatefulWidget {
   @override
