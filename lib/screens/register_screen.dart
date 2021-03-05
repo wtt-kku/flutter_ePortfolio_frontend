@@ -68,20 +68,20 @@ class Register extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 30),
-              Container(
-                margin: EdgeInsets.only(left: 38),
-                child: Row(
-                  children: [
-                    GoogleButton(
-                      char: 'G',
-                    ),
-                    SizedBox(width: 30),
-                    GoogleButton(
-                      char: 'f',
-                    ),
-                  ],
-                ),
-              ),
+              // Container(
+              //   margin: EdgeInsets.only(left: 38),
+              //   child: Row(
+              //     children: [
+              //       GoogleButton(
+              //         char: 'G',
+              //       ),
+              //       SizedBox(width: 30),
+              //       GoogleButton(
+              //         char: 'f',
+              //       ),
+              //     ],
+              //   ),
+              // ),
             ])
           ],
         ),
