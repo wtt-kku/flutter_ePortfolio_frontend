@@ -1,15 +1,18 @@
 //! Basic & libraries
+
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert' show json, base64, ascii;
 import 'package:http/http.dart' as http;
+
 //! Constant & Style
 import 'package:eportfolio/constants/style_constant.dart';
 import 'package:eportfolio/constants/color_constant.dart';
 
 //! Screen
 import 'package:eportfolio/screens/home_screen.dart';
+import 'package:eportfolio/screens/register_screen.dart';
 
 const SERVER_IP = 'http://192.168.1.44';
 final storage = new FlutterSecureStorage();
@@ -195,7 +198,12 @@ class _LoginState extends State<Login> {
 
   Widget _buildButtonRegister() {
     return GestureDetector(
-      onTap: () => print('Sign Up Button Pressed'),
+      onTap: () => {
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => Register()),
+        )
+      },
       child: RichText(
         text: TextSpan(
           children: [
